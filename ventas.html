@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ventas - Magic Cup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="navbar">
+        <div class="logo">Magic Cup</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="ventas.html">Ventas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN VENTAS -->
+    <section class="section-container">
+        <h2 class="section-title">Precios y Promociones</h2>
+        <div class="pricing-card">
+            <ul>
+                <li><strong>Diseños fijos:</strong> $12,99.</li>
+                <li><strong>Personalizado (Básico):</strong> $12,99 (sin costo adicional).</li>
+                <li><strong>Personalizado (Complejo):</strong> Desde $13,99.</li>
+            </ul>
+        </div>
+
+        <div class="promo-card">
+            <h3>¡Aprovecha nuestras promos!</h3>
+            <p>Descuento del 10% al comprar 2 tazas o más.</p>
+            <p>Packs especiales (ej: CR7 + Messi por $24).</p>
+            <a href="https://api.whatsapp.com/send/?phone=59396189659&text=Hola%2C+me+interesa+comprar+una+Magic+Cup&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                <button class="btn-dark-blue">Comprar Ahora</button>
+            </a>
+        </div>
+
+        <!-- FORMULARIO DE CONTACTO -->
+        <div class="contact-section">
+            <h2 class="title-red text-center">Contáctanos / Haz tu pedido</h2>
+            <p class="text-center">Déjanos tus datos y nos comunicaremos contigo:</p>
+            
+            <form class="contact-form">
+                <label for="nombre">Nombre <span>(obligatorio)</span></label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico <span>(obligatorio)</span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+                <button type="submit" class="btn-black">Contacta con nosotros</button>
+            </form>
+        </div>
+
+        <!-- REDES SOCIALES Y CONTACTO DIRECTO -->
+        <div class="direct-contact text-center">
+            <p>O si prefieres atención inmediata:</p>
+            
+            <a href="https://api.whatsapp.com/send/?phone=593996189659&text=Hola%2C+me+interesa+comprar+una+Magic+Cup&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" class="btn-social btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> Chatear por WhatsApp
+            </a>
+
+            <div class="social-row">
+                <a href="https://www.instagram.com/magic_cup2026" target="_blank" rel="noopener noreferrer" class="btn-social btn-instagram">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.tiktok.com/@magic_cup2026?lang=es-419" target="_blank" rel="noopener noreferrer" class="btn-social btn-tiktok">
+                    <i class="fa-brands fa-tiktok"></i> TikTok
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN RESEÑAS -->
+    <section class="section-container bg-light" style="margin-bottom: 50px;">
+        <div class="card card-white text-center">
+            <h3 class="title-green">¡Déjanos tu reseña!</h3>
+            <p>¿Compraste una Magic Cup? Cuéntanos tu experiencia usando la caja de comentarios que está justo aquí abajo.</p>
+        </div>
+
+        <div class="reviews-container">
+            <div class="review">
+                <h4>Carlos</h4>
+                <span class="date">mayo 10, 2026</span>
+                <p>Compré el pack de CR7 y Messi, el efecto de cambio de color es brutal. Excelente calidad.</p>
+                <a href="#" class="like-link">★ Me gusta</a> · <a href="#" class="reply-link">Responder</a>
+            </div>
+            <div class="review">
+                <h4>Maria</h4>
+                <span class="date">mayo 15, 2026</span>
+                <p>Le regalé una taza a mi novio por su cumpleaños en julio y le encantó el diseño de Moisés Caicedo cuando le puso café caliente. ¡Súper recomendado!</p>
+                <a href="#" class="like-link">★ Me gusta</a> · <a href="#" class="reply-link">Responder</a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

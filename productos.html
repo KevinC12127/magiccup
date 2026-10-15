@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Magic Cup</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <header class="navbar">
+        <div class="logo">Magic Cup</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="ventas.html">Ventas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIÓN PRODUCTOS -->
+    <section class="section-container bg-light">
+        <h2 class="section-title">Nuestros Productos</h2>
+        <p class="text-center">Nuestra taza termocrómica tiene la capacidad de cambiar de imagen mediante la temperatura.</p>
+        
+        <!-- ENCABEZADO DISEÑOS FIJOS -->
+        <div class="card card-white">
+            <h3 class="title-red">Diseños Fijos</h3>
+            <p>Con ilustraciones tipo meme de jugadores, escenarios futboleros y colores vibrantes.</p>
+        </div>
+
+        <!-- CUADRÍCULA DE TAZAS FIJAS (Estilos inline para no tocar styles.css) -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 25px 0;">
+            <div style="background: #ffffff; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.08); width: 230px;">
+                <img src="img/moises.jpeg" alt="Taza Moisés Caicedo" style="width: 100%; border-radius: 6px; display: block;">
+                <p style="margin-top: 10px; font-weight: bold; color: #333;">Moisés Caicedo</p>
+            </div>
+            
+            <div style="background: #ffffff; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.08); width: 230px;">
+                <img src="img/pacho.jpeg" alt="Taza William Pacho" style="width: 100%; border-radius: 6px; display: block;">
+                <p style="margin-top: 10px; font-weight: bold; color: #333;">William Pacho</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.08); width: 230px;">
+                <img src="img/hincapie.jpeg" alt="Taza Piero Hincapié" style="width: 100%; border-radius: 6px; display: block;">
+                <p style="margin-top: 10px; font-weight: bold; color: #333;">Piero Hincapié</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.08); width: 230px;">
+                <img src="img/eneer.jpeg" alt="Taza Enner Valencia" style="width: 100%; border-radius: 6px; display: block;">
+                <p style="margin-top: 10px; font-weight: bold; color: #333;">Enner Valencia</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.08); width: 230px;">
+                <img src="img/cr7.jpeg" alt="Taza Cristiano Ronaldo" style="width: 100%; border-radius: 6px; display: block;">
+                <p style="margin-top: 10px; font-weight: bold; color: #333;">Cristiano Ronaldo</p>
+            </div>
+
+            <div style="background: #ffffff; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.08); width: 230px;">
+                <img src="img/messinormal.jpeg" alt="Taza Lionel Messi" style="width: 100%; border-radius: 6px; display: block;">
+                <p style="margin-top: 10px; font-weight: bold; color: #333;">Lionel Messi</p>
+            </div>
+        </div>
+
+        <!-- ENCABEZADO DISEÑOS PERSONALIZADOS -->
+        <div class="card card-white" style="margin-top: 45px;">
+            <h3 class="title-red">Diseños Personalizados</h3>
+            <p>Ideal para revivir momentos icónicos o agregar frases vinculadas al homenajeado.</p>
+        </div>
+
+        <!-- TAZA DE CUMPLEAÑOS MESSI -->
+        <div style="text-align: center; margin: 25px auto;">
+            <img src="img/messi.jpeg" alt="Taza Personalizada Messi Cumpleaños" style="max-width: 320px; width: 100%; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12); display: inline-block;">
+        </div>
+
+        <!-- DEMOSTRACIÓN EN VIDEO -->
+        <div class="video-container" style="text-align: center; margin-top: 40px;">
+            <h3 class="title-blue">Mira cómo funciona la magia</h3>
+            <p>A continuación te mostramos el efecto termocrómico en acción:</p>
+            
+            <div style="margin-top: 20px;">
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/OBNXsPs7wnk" 
+                    title="Demostración Magic Cup" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen
+                    style="border-radius: 8px; max-width: 100%;">
+                </iframe>
+            </div>
+
+            <div style="margin-top: 15px;">
+                <a href="https://youtu.be/OBNXsPs7wnk" target="_blank" rel="noopener noreferrer" class="btn btn-blue" style="font-size: 0.9rem;">
+                    <i class="fa-brands fa-youtube"></i> Ver directo en YouTube
+                </a>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
